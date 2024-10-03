@@ -1,0 +1,34 @@
+.block-search{
+	width:100%;
+	text-align:center;
+	background:Grey;
+	padding:2px;
+}
+.block-search input{
+	width:60%;
+	height:20px;
+}
+.block-arctile{
+	text-align:center;
+	background:Lightblue;
+	padding:5% 0 2%;
+}
+.block-arctile a{
+	color:grey;
+	text-decoration:none;
+	margin:0 5%;
+}
+.block-arctile h2{
+	margin:0 0 5%;
+}
+.block-main{
+	display:inline-block;
+}
+.main-large{
+	width:100px;
+	height:100px;
+}
+.main-large img{
+	width:30%;
+	overflow:hidden;
+}
