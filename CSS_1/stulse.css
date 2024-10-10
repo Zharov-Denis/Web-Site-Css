@@ -2,33 +2,85 @@
 	width:100%;
 	text-align:center;
 	background:Grey;
-	padding:2px;
+	padding:2px 0;
 }
 .block-search input{
 	width:60%;
 	height:20px;
 }
+
 .block-arctile{
 	text-align:center;
-	background:Lightblue;
+	background: url(../img/cloud.jpg) 70%;
 	padding:5% 0 2%;
+	margin-bottom: 1%;
 }
 .block-arctile a{
 	color:grey;
 	text-decoration:none;
 	margin:0 5%;
 }
+#active {
+	color: purple;
+}
 .block-arctile h2{
 	margin:0 0 5%;
 }
 .block-main{
-	display:inline-block;
-}
-.main-large{
-	width:100px;
-	height:100px;
-}
-.main-large img{
-	width:30%;
 	overflow:hidden;
+}
+.block{
+	display:inline-block;
+	float:left;
+	margin: 0.5%;
+	padding: 5px;
+	text-align:center;
+}
+.block-main-top {
+	width:96%;
+	margin: auto;
+	overflow: hidden;
+	padding: auto;
+}
+.main-large {
+	width:66%;
+	border:solid medium LightGrey;
+}
+.main-medium {
+	width:26.4%;
+	border:solid medium LightGrey;
+}
+.block-main-bottom {
+	width:96%;
+	margin: auto;
+	overflow: hidden;
+	padding: auto;
+	text-align:left;
+}
+.main-short {
+	background: #fffafa;
+	text-align:left;
+	width:47%;
+	padding:0.5%;
+}
+img{
+	width:100%;
+}
+.block-main-bottom img{
+	width:50%;
+	float:left;
+	margin-right:0.5%;
+}
+h3{
+	margin-top:0;
+}
+p {
+	clear:both;
+	text-align:left;
+}
+.name{
+	float:left;
+}
+.contact{
+	float:right;
 }
