@@ -51,6 +51,7 @@
 	border:solid medium LightGrey;
 }
 .block-main-bottom {
+	display:inline-block;
 	width:96%;
 	margin: auto;
 	overflow: hidden;
@@ -60,8 +61,8 @@
 .main-short {
 	background: #fffafa;
 	text-align:left;
-	width:47%;
-	padding:0.5%;
+	width:46%;
+	padding:0.3%;
 }
 img{
 	width:100%;
@@ -70,6 +71,20 @@ img{
 	width:50%;
 	float:left;
 	margin-right:0.5%;
+}
+.block-image {
+	overflow: hidden;
+	height: 100px;
+}
+.main-short .block-image {
+	display:inline-block;
+	float:left;
+	height: 84px;
+	width:40%;
+	margin-right:10px;
+}
+.main-short img {
+	width:100%;
 }
 h3{
 	margin-top:0;
