@@ -38,18 +38,20 @@
 	display:grid;
     width:100%;
     height:100%;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(8, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     grid-template-areas:
-		"main-img main-arct shotr-img-1 short-name-1"
-		"main-img main-arct short-arct-1 short-arct-1"
-		"main-img main-arct shotr-img-2 short-name-2"
-		"main-img main-arct short-arct-2 short-arct-2"
-		"main-img main-arct shotr-img-3 short-name-3"
-		"main-img main-arct short-arct-3 short-arct-3"
-		"main-img main-arct shotr-img-4 short-name-4"
-		"main-img main-arct short-arct-4 short-arct-4";
-		
+		"main-img main-arct"
+		"main-img main-arct"
+		"main-img main-arct";
+}
+.block-main > .main-img{
+	grid-area: main-img;
+	background:red;
+}
+.block-main > .main-arct{
+	grid-area: main-arct;
+	background:gray;
 }
 
 .name{

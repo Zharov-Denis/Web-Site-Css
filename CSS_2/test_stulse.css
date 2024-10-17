@@ -1,0 +1,111 @@
+.block-search{
+	width:100%;
+	text-align:center;
+	background:Grey;
+	padding:2px 0;
+}
+.block-search input{
+	width:60%;
+	height:20px;
+}
+
+.block-arctile{
+	text-align:center;
+	background: url(../img/cloud.jpg) 70%;
+	padding:5% 0 2%;
+	margin-bottom: 1%;
+}
+.block-arctile a{
+	color:grey;
+	text-decoration:none;
+	font-size: 1.9vw;
+	margin:0 1%;
+}
+#active {
+	color: purple;
+}
+.block-arctile h2{
+	margin:0 0 5%;
+}
+.block-main{
+	overflow:hidden;
+	width:100%;
+	font-size: 1.5vw;
+}
+.block{
+	display:inline-block;
+	float:left;
+	margin: 0.5%;
+	padding: 0.3vw;
+	text-align:center;
+}
+.block-main-top {
+	width:100%;
+	margin: auto;
+	overflow: hidden;
+}
+.main-large {
+	width:63%;
+	border:solid LightGrey;
+	border-width: 0.375vw;
+	float:left;
+}
+.main-medium {
+	width:26.4%;
+	border:solid LightGrey;
+	border-width: 0.375vw;
+	float:right;
+}
+.block-main-bottom {
+	display:inline-block;
+	width:100%;
+	margin: auto;
+	overflow: hidden;
+	text-align:center;
+}
+.main-short {
+	background: #fffafa;
+	text-align:left;
+	width:48.3%;
+	padding:0.3%;
+}
+img{
+	width:100%;
+}
+.block-main-bottom img{
+	width:50%;
+	margin: auto;
+}
+.block-image {
+	overflow: hidden;
+	height: 10vw;
+}
+.main-short .block-image {
+	display:inline-block;
+	float:left;
+	height: 10vw;
+	width:40%;
+	margin-right:10px;
+}
+.main-short img {
+	width:100%;
+}
+.left-column{
+	float:left;
+}
+.right-column{
+	float:right;
+}
+h3{
+	margin-top:0;
+}
+p {
+	clear:both;
+	text-align:left;
+}
+.name{
+	float:left;
+}
+.contact{
+	float:right;
+}
