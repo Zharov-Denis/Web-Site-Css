@@ -1,0 +1,60 @@
+.block-search{
+	width:100%;
+	text-align:right;
+	background:Grey;
+	padding:0.4vw 0;
+}
+.block-search input{
+	width:60%;
+	height:20px;
+}
+
+.block-arctile{
+	text-align:right;
+	background: url(../img/cloud.jpg) 70%;
+	padding:5% 0 2%;
+	margin-bottom: 1%;
+}
+
+.block-arctile h2{
+	text-align: center;	
+}
+.block-arctile a{
+	color:grey;
+	text-decoration:none;
+	font-size: 1.9vw;
+	margin:0 1%;
+}
+#active{
+	color: purple;
+}
+.block-arctile a:hover{
+	color: purple;
+}
+.block-arctile h2{
+	margin:0 0 5%;
+}
+.block-main{
+	display:grid;
+    width:100%;
+    height:100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-template-areas:
+		"main-img main-arct shotr-img-1 short-name-1"
+		"main-img main-arct short-arct-1 short-arct-1"
+		"main-img main-arct shotr-img-2 short-name-2"
+		"main-img main-arct short-arct-2 short-arct-2"
+		"main-img main-arct shotr-img-3 short-name-3"
+		"main-img main-arct short-arct-3 short-arct-3"
+		"main-img main-arct shotr-img-4 short-name-4"
+		"main-img main-arct short-arct-4 short-arct-4";
+		
+}
+
+.name{
+	float:left;
+}
+.contact{
+	float:right;
+}
