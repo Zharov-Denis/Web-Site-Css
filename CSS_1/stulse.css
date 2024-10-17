@@ -18,7 +18,8 @@
 .block-arctile a{
 	color:grey;
 	text-decoration:none;
-	margin:0 5%;
+	font-size: 1.9vw;
+	margin:0 1%;
 }
 #active {
 	color: purple;
@@ -28,40 +29,46 @@
 }
 .block-main{
 	overflow:hidden;
+	width:100%;
+	font-size: 1.5vw;
 }
 .block{
 	display:inline-block;
 	float:left;
 	margin: 0.5%;
-	padding: 5px;
+	padding: 0.3vw;
 	text-align:center;
 }
 .block-main-top {
-	width:96%;
+	width:100%;
 	margin: auto;
 	overflow: hidden;
 	padding: auto;
 }
 .main-large {
-	width:66%;
-	border:solid medium LightGrey;
+	width:63%;
+	border:solid LightGrey;
+	border-width: 0.375vw;
+	float:left;
 }
 .main-medium {
 	width:26.4%;
-	border:solid medium LightGrey;
+	border:solid LightGrey;
+	border-width: 0.375vw;
+	float:right;
 }
 .block-main-bottom {
 	display:inline-block;
-	width:96%;
+	width:100%;
 	margin: auto;
 	overflow: hidden;
 	padding: auto;
-	text-align:left;
+	text-align:center;
 }
 .main-short {
 	background: #fffafa;
 	text-align:left;
-	width:46%;
+	width:48.3%;
 	padding:0.3%;
 }
 img{
@@ -69,22 +76,27 @@ img{
 }
 .block-main-bottom img{
 	width:50%;
-	float:left;
-	margin-right:0.5%;
+	margin: auto;
 }
 .block-image {
 	overflow: hidden;
-	height: 100px;
+	height: 10vw;
 }
 .main-short .block-image {
 	display:inline-block;
 	float:left;
-	height: 84px;
+	height: 10vw;
 	width:40%;
 	margin-right:10px;
 }
 .main-short img {
 	width:100%;
+}
+.left-column{
+	float:left;
+}
+.right-column{
+	float:right;
 }
 h3{
 	margin-top:0;
